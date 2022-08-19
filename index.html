@@ -25,7 +25,7 @@
             table{
                 height: 100px;
                 width: 1000px;
-                border: 10px solid chartreuse;
+                border: 10px ridge chartreuse;
                 padding: 20px;
                 margin: 30px;
             }
@@ -43,7 +43,25 @@
                 background-color: brown;
                 color: aliceblue;
                 padding: 30px;
-            }    
+            }
+            section p{
+                background-color:bisque;
+                border: 10px solid red;
+            }
+            section>article>p {
+                background-color:white;
+                border: 10px solid blue;
+            }
+            nav li{
+                height: 5%;
+                width: 5%;
+                border: 5px dashed cornflowerblue;
+                padding: 1em;
+                margin: 0.5em;
+                border-radius: 20%;
+                display: inline-block;
+                box-shadow: -15px -15px 5px black;
+            }
         </style>
     </head>
     <body style="background-color:white">
@@ -51,11 +69,18 @@
             <h1>
                 Desarrollo Web
             </h1>
+            <nav>
+                <ul>
+                    <li> <a href="#"> HTML </a></li>
+                    <li> <a href="HTML/lenguajecss.html"> CSS </a></li>
+                    <li> <a href="#"> Javascript </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
             <P>
                 Notas del curso desarrollo Web PILARES
             </P>
-        </header>
-        <main>
             <section class="secc-azul">
                 <h2>HTML</h2>
                 <p> Hyper Markup Language (HTML), es un lenguaje de marcado cuyas caracteristicas son...</p>
@@ -132,7 +157,7 @@
                             -
                         </td>
                         <td>
-                            <p>Ejemplo de parrafo</p>
+                            <p> Ejemplo de parrafo </p>
                         </td>
                     </tr>
                     <tr>
@@ -224,7 +249,20 @@
                     <p> propiedad2: valor2; </p>
                 <p>}</p>
             </section>
-        </main>
+            <P>
+                Parrafo con estilo diferente
+            </P>
+            <section>
+                <article>
+                    <h2>
+                        Articulo
+                    </h2>
+                    <p>
+                        Parrafo del articulo
+                    </p>
+                </article>
+                <p>parrafo fuera del articulo </p> 
+            </section>
         </main>
         <footer>
         </footer>
