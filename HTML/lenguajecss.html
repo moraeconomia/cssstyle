@@ -19,6 +19,33 @@
             height: 100px;
             border: 2px solid blue;
         }
+        .formulario{
+            width: 30%;
+            margin: auto;
+            height: 20vmax;
+            border: 5px solid black;
+            display: flex ;
+            justify-content: space-around;
+        }
+        .pt{
+            width: 50%;
+            height: 99%;
+            border: 2px solid grey;
+            display: flex ;
+            justify-content: space-around ;
+            align-items: center;
+        }
+        .titulof{
+            display: flex ;
+            justify-content:center ;
+            align-items:baseline ;
+            width: 100%;
+            height: 10%;
+        }
+        
+        .nota{
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +63,61 @@
         <div class="elemento"> 1 
         </div>
         <div class="elemento"> 2 </div>
+    </div>
+    <div>
+        <form>
+            <input type="text">
+            <input type="password">
+            <input type="checkbox">
+            <input type="number" name="" id="">
+            <input type="date" name="" id="">
+            <input type="color" name="" id="">
+            <textarea name="" id="" cols="30" rows="10">
+                Escribe algo
+            </textarea>
+            <input type="radio" name="" id="">
+            <input type="time" name="" id="">
+            <input type="button" value="Enviar">
+            <input type="submit" value="">
+            </form>
+    </div>
+    <div >
+        <div class="titulof">
+            <h1> Registro </h1>
+        </div>
+        <div class="formulario">
+            <div class="pt">
+                <form>
+                    <p><label for="nombre"> Nombre </label></p>
+                    <p><input type="text" id="nombre"> </p>
+                    <p> Correo </p>
+                    <input type="email">
+                    <p> Telefono </p>
+                    <input type="text">
+                    <p></p>
+                </form>
+            </div>
+            <div class="pt"> 
+                <form>
+                    <p> Calle </p>
+                    <input type="text">
+                    <p> Delegacion </p>
+                    <input type="text">
+                    <p><label for="pago"> Pago </label></p>
+                        <label for="si"> Si </label>
+                        <input type="radio" id="si" name="pago">
+                        <label for="no"> No </label>
+                        <input type="radio" id="no" name="pago">
+                    <p></p>
+                    <input type="button" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+
+        </div>
     </div>
 </body>
 </html>
