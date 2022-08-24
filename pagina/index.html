@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulo {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 100%;
+            height: 10%;
+            border: 5px;
+
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 50%;
+            height: 10%;
+            border: 5px solid red;
+
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav li {
+            height: 10%;
+            width: 10%;
+            margin: 2em;
+            border: 5px solid red;
+            padding: 4em;
+            border-radius: 20%;
+            display: inline-block;
+            background-color:gainsboro ;
+            text-align: center;
+        }
+
+        .mitad {
+            width: 96%;
+            height: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin: 1em;
+            border: 5px solid red;
+            padding: 1em;
+        }
+
+        .t1 {
+            width: 50%;
+            height: 800px;
+
+            margin: 2em;
+            border: 5px solid red;
+            padding: 5em;
+            box-sizing: border-box;
+        }
+
+        .h2 {
+            margin: 1em;
+            border: 2px solid red;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+
+        }
+
+        .formulario {
+            margin: 2em;
+            border: 2px solid red;
+            padding: 5em;
+        }
+
+        footer {
+            margin: 1em;
+            border: 2px solid red;
+            padding: 4em;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>
+                Encabezado nivel 1
+            </h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="" target="_blank"> Enlace 1 </a>
+            </li>
+            <li>
+                <a href="" target="_blank"> Enlace 2 </a>
+            </li>
+            <li>
+                <a href="" target="_blank"> Enlace 3 </a>
+            </li>
+            <li>
+                <a href="" target="_blank"> Enlace 4 </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="mitad">
+            <div class="t1">
+                <h2 class="h2">
+                    Encabezado nivel 2
+                </h2>
+                <img src="img/tar.png">
+                <p> Parrafo 1 </p>
+                <p> Parrafo 2 </p>
+                <p> Parrafo 3 </p>
+            </div>
+            <div class="t1">
+                <h2> Registro </h2>
+                <div>
+                    <div class="formulario">
+                        <form>
+                            <p> <input type="checkbox"> Opcion 1 </p>
+                            <p> <input type="checkbox"> Opcion 2 </p>
+                            <p> <input type="checkbox"> Opcion 3 </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Pie de pagina
+    </footer>
+</body>
+
+</html>
