@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Arte Popular </title>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+
+            <div class="general">
+                <header>
+                    <div class="contenedor ">
+                        <nav class="menu">
+                            <div class="arte">
+                            <img src="https://raw.githubusercontent.com/moraeconomia/pagina-pilares/main/Proyecto%20final/img/pngwing.com.png" class="may">
+                            <ul>
+                                <li>ARTE</li>
+                                <li>COLECCIONES</li>
+                                <li>CONOCENOS</li>
+                                </ul>
+                            </div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div>
+                                <ul>
+                                    <li class="boton1"> Inicia Sesion </li>
+                                    <li class="boton2">Registrate </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+
+                <div class="contenedor verde"> 
+                    <p class="encabezado"> UNA EXPERIENCIA </p>
+                    <p class="encabezado"> TOTALMENTE NUEVA </p>
+                    <p class="encabezado"> EN EL ARTE </p>
+                    <p> Una tradicion milenaria nos ha acompañado atravez de todo </p>
+                    <p> este tiempo. </h4>
+
+                </div>
+
+                <div class=" contenedor rojo">
+                    <div> <img src="https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg" > </div>
+                    <div class="txt1"> 
+                        <p class="encabezado"> ALEBRIGES </p>
+                        <p class="encabezado"> MEXICANOS </p>
+                        <p> </p>
+                        <p> Tallados en madera cumplen con las mas </p>
+                        <p> altas exigencias en diseño. </p>
+                    </div>
+                </div>
+
+                <div class="contenedor rojo">
+                    <div class="txt2"> 
+                        <p class="encabezado"> CREATIVIDAD </p>
+                        <p class="encabezado"> E IMAGINACION </p>
+                        <p> </p>
+                        <p> Un sueño hecho realidad </p>
+                    </div>
+                    <div> <img src="https://cdn.shopify.com/s/files/1/0457/6037/products/alebrije-perro-arrazola-435849_2048x.jpg?v=1645176371"> </div>
+                    <div class="esp">
+                        <p></p>
+                    </div>
+                </div>
+                <footer>
+                        <div class="footer">
+                            <img class="redes" src="https://img.icons8.com/ios-glyphs/344/spotify.png">
+                            <img class="redes" src="https://img.icons8.com/ios-glyphs/344/facebook-new.png">
+                            <img class="redes" src="">
+                            <img class="redes" src="">
+                            <img class="redes" src="">
+                            <img class="redes" src="">
+                        </div>
+
+                </footer>
+            </div>
+
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
